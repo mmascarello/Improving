@@ -1,0 +1,49 @@
+https://www.youtube.com/watch?v=65nQKFgEyOU&ab_channel=LeonidasEsteban
+
+- En css como se escribe un selector para que una regla se aplique a todos los hijos
+con >, por ejemplo div > a { color: red;} hara que todos los a que sean hijos directos de div, tengan color rojo.
+
+- Que atributo html se utiliza para definir estilos en linea?
+Style. Ejemplo: <hr style="color: #0056b2;" />
+
+- Que etiqueta html se utiliza para definir una hoja de estilo externa
+<LINK REL=StyleSheet HREF="basico.css" TITLE="Contemporaneo">
+
+- En css que pseudo clase se utiliza para definir una propiedad cuando el cursor se situa sobre un elemento
+/* Selecciona cualquier elemento <a> cuando está "mantenido (hovered)" */
+a:hover {
+  color: orange;
+}
+
+- Diferencia entre margin y padding
+Margen: es el espacio alrededor de un elemento
+Padding: Es el espacio entre el elemento y el contenido relacionado dentro de él.
+
+- Que significa CSS
+cascade style sheet
+
+- en css 3 que significa la a en rgba
+a es alfa, transparencia.
+
+- como se asignan estilos a distintos dispositivos y resoluciones
+Los pilares principales del Responsive son las Media Queries y la etiqueta Viewport.
+@media (max-width:320px){
+  <!—- Aquí van todos los estilos CSS -->
+}
+
+@media (min-width:768px){
+  <!—- Aquí van todos los estilos CSS -->
+}
+
+
+- que estaria definiendo si utiliza felx-direction:column en un elemento con display:flex
+Como se apilan los hijos del contenedor en el. Se esta diciendo que se haga en columnas.
+
+- funcion de @import en Sass
+es para traer otras hojas externas.
+
+- funcion de @extend en Sass
+es para extender propiedades de un objeto en otro. por ejemplo, tengo un boton con un estilo, y en otro boton uso extend para agregarle algun estilo.
+
+
+- @mixin de Sass
